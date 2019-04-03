@@ -1,0 +1,1134 @@
+2019-04-03 13:47:11,875 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9aa0be4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 13:47:12,112 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 13:47:12,494 WARN  No MyBatis mapper was found in '[com.pp.userservice]' package. Please check your configuration.
+2019-04-03 13:47:12,649 INFO  BeanFactory id=b69359fe-4fb3-341d-b3f2-b2e120180efd
+2019-04-03 13:47:12,717 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd9008e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 13:47:12,730 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9aa0be4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 13:47:12,998 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 13:47:13,009 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 13:47:13,017 INFO  Starting service [Tomcat]
+2019-04-03 13:47:13,018 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 13:47:13,130 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 13:47:13,130 INFO  Root WebApplicationContext: initialization completed in 1006 ms
+2019-04-03 13:47:13,213 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 13:47:13,213 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 13:47:13,217 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 13:47:13,217 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 13:47:13,364 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 13:47:13,563 INFO  {dataSource-1} inited
+2019-04-03 13:47:13,777 INFO  {dataSource-2} inited
+2019-04-03 13:47:14,560 INFO  Setting initial instance status as: STARTING
+2019-04-03 13:47:14,599 INFO  Initializing Eureka in region us-east-1
+2019-04-03 13:47:14,859 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 13:47:14,859 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 13:47:14,982 INFO  Using XML encoding codec XStreamXml
+2019-04-03 13:47:14,983 INFO  Using XML decoding codec XStreamXml
+2019-04-03 13:47:15,211 INFO  Resolving eureka endpoints via configuration
+2019-04-03 13:47:15,305 INFO  Disable delta property : false
+2019-04-03 13:47:15,305 INFO  Single vip registry refresh property : null
+2019-04-03 13:47:15,305 INFO  Force full registry fetch : false
+2019-04-03 13:47:15,305 INFO  Application is null : false
+2019-04-03 13:47:15,305 INFO  Registered Applications size is zero : true
+2019-04-03 13:47:15,305 INFO  Application version is -1: true
+2019-04-03 13:47:15,305 INFO  Getting all instance registry info from the eureka server
+2019-04-03 13:47:15,406 INFO  The response status is 200
+2019-04-03 13:47:15,408 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 13:47:15,411 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 13:47:15,415 INFO  Discovery Client initialized at timestamp 1554270435414 with initial instances count: 0
+2019-04-03 13:47:15,417 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 13:47:15,418 INFO  Saw local status change event StatusChangeEvent [timestamp=1554270435418, current=UP, previous=STARTING]
+2019-04-03 13:47:15,420 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 13:47:15,431 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 13:47:15,457 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 13:47:15,458 INFO  Updating port to 8197
+2019-04-03 13:47:15,460 INFO  Started UserserviceApplication in 4.388 seconds (JVM running for 5.839)
+2019-04-03 13:47:15,479 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 13:47:22,916 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 13:47:22,916 WARN  Saw local status change event StatusChangeEvent [timestamp=1554270442916, current=DOWN, previous=UP]
+2019-04-03 13:47:22,916 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 13:47:22,926 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 13:47:22,929 INFO  {dataSource-1} closed
+2019-04-03 13:47:22,929 INFO  {dataSource-2} closed
+2019-04-03 13:47:22,930 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 13:47:22,931 INFO  Shutting down DiscoveryClient ...
+2019-04-03 13:47:25,934 INFO  Unregistering ...
+2019-04-03 13:47:25,951 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 13:47:25,978 INFO  Completed shut down of DiscoveryClient
+2019-04-03 13:48:49,860 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d5c3dbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 13:48:50,094 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 13:48:50,475 WARN  No MyBatis mapper was found in '[com.pp.userservice]' package. Please check your configuration.
+2019-04-03 13:48:50,635 INFO  BeanFactory id=b69359fe-4fb3-341d-b3f2-b2e120180efd
+2019-04-03 13:48:50,703 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51423abe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 13:48:50,717 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d5c3dbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 13:48:50,994 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 13:48:51,007 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 13:48:51,015 INFO  Starting service [Tomcat]
+2019-04-03 13:48:51,016 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 13:48:51,129 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 13:48:51,129 INFO  Root WebApplicationContext: initialization completed in 1023 ms
+2019-04-03 13:48:51,212 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 13:48:51,212 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 13:48:51,216 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 13:48:51,216 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 13:48:51,361 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 13:48:51,563 INFO  {dataSource-1} inited
+2019-04-03 13:48:51,772 INFO  {dataSource-2} inited
+2019-04-03 13:48:52,546 INFO  Setting initial instance status as: STARTING
+2019-04-03 13:48:52,584 INFO  Initializing Eureka in region us-east-1
+2019-04-03 13:48:52,849 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 13:48:52,849 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 13:48:52,983 INFO  Using XML encoding codec XStreamXml
+2019-04-03 13:48:52,983 INFO  Using XML decoding codec XStreamXml
+2019-04-03 13:48:53,216 INFO  Resolving eureka endpoints via configuration
+2019-04-03 13:48:53,311 INFO  Disable delta property : false
+2019-04-03 13:48:53,311 INFO  Single vip registry refresh property : null
+2019-04-03 13:48:53,311 INFO  Force full registry fetch : false
+2019-04-03 13:48:53,311 INFO  Application is null : false
+2019-04-03 13:48:53,311 INFO  Registered Applications size is zero : true
+2019-04-03 13:48:53,311 INFO  Application version is -1: true
+2019-04-03 13:48:53,311 INFO  Getting all instance registry info from the eureka server
+2019-04-03 13:48:53,412 INFO  The response status is 200
+2019-04-03 13:48:53,414 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 13:48:53,416 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 13:48:53,420 INFO  Discovery Client initialized at timestamp 1554270533419 with initial instances count: 0
+2019-04-03 13:48:53,422 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 13:48:53,423 INFO  Saw local status change event StatusChangeEvent [timestamp=1554270533423, current=UP, previous=STARTING]
+2019-04-03 13:48:53,425 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 13:48:53,437 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 13:48:53,466 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 13:48:53,467 INFO  Updating port to 8197
+2019-04-03 13:48:53,469 INFO  Started UserserviceApplication in 4.66 seconds (JVM running for 5.606)
+2019-04-03 13:48:53,489 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 13:49:23,414 INFO  Disable delta property : false
+2019-04-03 13:49:23,415 INFO  Single vip registry refresh property : null
+2019-04-03 13:49:23,415 INFO  Force full registry fetch : false
+2019-04-03 13:49:23,416 INFO  Application is null : false
+2019-04-03 13:49:23,416 INFO  Registered Applications size is zero : true
+2019-04-03 13:49:23,416 INFO  Application version is -1: false
+2019-04-03 13:49:23,416 INFO  Getting all instance registry info from the eureka server
+2019-04-03 13:49:23,481 INFO  The response status is 200
+2019-04-03 13:49:57,480 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 13:49:57,480 WARN  Saw local status change event StatusChangeEvent [timestamp=1554270597480, current=DOWN, previous=UP]
+2019-04-03 13:49:57,482 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 13:49:57,486 INFO  {dataSource-1} closed
+2019-04-03 13:49:57,487 INFO  {dataSource-2} closed
+2019-04-03 13:49:57,488 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 13:49:57,490 INFO  Shutting down DiscoveryClient ...
+2019-04-03 13:49:57,491 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 13:49:57,492 INFO  Unregistering ...
+2019-04-03 13:49:57,498 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 13:49:57,507 INFO  Completed shut down of DiscoveryClient
+2019-04-03 14:06:11,480 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69271a40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:06:11,724 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:06:12,093 WARN  No MyBatis mapper was found in '[com.pp.userservice]' package. Please check your configuration.
+2019-04-03 14:06:12,253 INFO  BeanFactory id=7fc37838-5ca2-3f2d-992e-f61e72e606ea
+2019-04-03 14:06:12,324 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d0d1743] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:06:12,338 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69271a40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:06:12,607 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:06:12,618 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:06:12,625 INFO  Starting service [Tomcat]
+2019-04-03 14:06:12,625 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:06:12,726 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:06:12,726 INFO  Root WebApplicationContext: initialization completed in 992 ms
+2019-04-03 14:06:12,796 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registery': Unsatisfied dependency expressed through field 'registryService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pp.userservice.service.IRegistryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-03 14:06:12,797 INFO  Stopping service [Tomcat]
+2019-04-03 14:06:12,815 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-03 14:06:13,571 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registryService in com.pp.userservice.controller.Registery required a bean of type 'com.pp.userservice.service.IRegistryService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.pp.userservice.service.IRegistryService' in your configuration.
+
+2019-04-03 14:06:27,900 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$affad8d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:06:28,134 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:06:28,546 WARN  No MyBatis mapper was found in '[com.pp.userservice]' package. Please check your configuration.
+2019-04-03 14:06:28,710 INFO  BeanFactory id=7fc37838-5ca2-3f2d-992e-f61e72e606ea
+2019-04-03 14:06:28,786 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93e0d5db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:06:28,804 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$affad8d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:06:29,098 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:06:29,110 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:06:29,117 INFO  Starting service [Tomcat]
+2019-04-03 14:06:29,118 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:06:29,233 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:06:29,233 INFO  Root WebApplicationContext: initialization completed in 1087 ms
+2019-04-03 14:06:29,310 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registery': Unsatisfied dependency expressed through field 'registryService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pp.userservice.service.IRegistryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-03 14:06:29,310 INFO  Stopping service [Tomcat]
+2019-04-03 14:06:29,329 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-03 14:06:29,454 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registryService in com.pp.userservice.controller.Registery required a bean of type 'com.pp.userservice.service.IRegistryService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.pp.userservice.service.IRegistryService' in your configuration.
+
+2019-04-03 14:07:14,239 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a24b874e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:07:14,464 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:07:14,873 WARN  No MyBatis mapper was found in '[com.pp.userservice]' package. Please check your configuration.
+2019-04-03 14:07:15,028 INFO  BeanFactory id=4dbddeff-7cf7-347c-a6ab-a30d053dad4b
+2019-04-03 14:07:15,099 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86318451] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:07:15,113 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a24b874e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:07:15,387 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:07:15,401 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:07:15,408 INFO  Starting service [Tomcat]
+2019-04-03 14:07:15,409 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:07:15,520 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:07:15,521 INFO  Root WebApplicationContext: initialization completed in 1046 ms
+2019-04-03 14:07:15,596 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registery': Unsatisfied dependency expressed through field 'registryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registryService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pp.userservice.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-03 14:07:15,597 INFO  Stopping service [Tomcat]
+2019-04-03 14:07:15,613 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-03 14:07:15,728 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in com.pp.userservice.service.impl.RegistryServiceImpl required a bean of type 'com.pp.userservice.dao.UserDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.pp.userservice.dao.UserDao' in your configuration.
+
+2019-04-03 14:08:28,899 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5af584e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:08:29,120 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:08:29,542 WARN  No MyBatis mapper was found in '[com.pp.userservice]' package. Please check your configuration.
+2019-04-03 14:08:29,697 INFO  BeanFactory id=4dbddeff-7cf7-347c-a6ab-a30d053dad4b
+2019-04-03 14:08:29,767 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3edb81e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:08:29,781 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5af584e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:08:30,170 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:08:30,205 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:08:30,215 INFO  Starting service [Tomcat]
+2019-04-03 14:08:30,216 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:08:30,339 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:08:30,339 INFO  Root WebApplicationContext: initialization completed in 1207 ms
+2019-04-03 14:08:30,420 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registery': Unsatisfied dependency expressed through field 'registryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registryService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pp.userservice.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-03 14:08:30,421 INFO  Stopping service [Tomcat]
+2019-04-03 14:08:30,438 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-03 14:08:30,554 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in com.pp.userservice.service.impl.RegistryServiceImpl required a bean of type 'com.pp.userservice.dao.UserDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.pp.userservice.dao.UserDao' in your configuration.
+
+2019-04-03 14:09:25,771 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a2632682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:09:25,994 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:09:26,591 INFO  BeanFactory id=8325e360-a031-39bf-89a4-70b15665c1c8
+2019-04-03 14:09:26,665 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86492385] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:09:26,679 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a2632682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:09:26,956 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:09:26,968 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:09:26,975 INFO  Starting service [Tomcat]
+2019-04-03 14:09:26,975 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:09:27,105 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:09:27,105 INFO  Root WebApplicationContext: initialization completed in 1097 ms
+2019-04-03 14:09:27,278 INFO  {dataSource-1} inited
+2019-04-03 14:09:27,496 INFO  {dataSource-2} inited
+2019-04-03 14:09:27,797 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:09:27,798 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:09:27,802 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:09:27,802 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:09:27,953 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:09:28,570 INFO  Setting initial instance status as: STARTING
+2019-04-03 14:09:28,607 INFO  Initializing Eureka in region us-east-1
+2019-04-03 14:09:28,889 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:09:28,889 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:09:28,992 INFO  Using XML encoding codec XStreamXml
+2019-04-03 14:09:28,992 INFO  Using XML decoding codec XStreamXml
+2019-04-03 14:09:29,229 INFO  Resolving eureka endpoints via configuration
+2019-04-03 14:09:29,323 INFO  Disable delta property : false
+2019-04-03 14:09:29,323 INFO  Single vip registry refresh property : null
+2019-04-03 14:09:29,323 INFO  Force full registry fetch : false
+2019-04-03 14:09:29,323 INFO  Application is null : false
+2019-04-03 14:09:29,323 INFO  Registered Applications size is zero : true
+2019-04-03 14:09:29,323 INFO  Application version is -1: true
+2019-04-03 14:09:29,323 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:09:29,424 INFO  The response status is 200
+2019-04-03 14:09:29,426 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:09:29,429 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:09:29,433 INFO  Discovery Client initialized at timestamp 1554271769431 with initial instances count: 0
+2019-04-03 14:09:29,435 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 14:09:29,435 INFO  Saw local status change event StatusChangeEvent [timestamp=1554271769435, current=UP, previous=STARTING]
+2019-04-03 14:09:29,438 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:09:29,450 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:09:29,478 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 14:09:29,479 INFO  Updating port to 8197
+2019-04-03 14:09:29,481 INFO  Started UserserviceApplication in 4.709 seconds (JVM running for 5.835)
+2019-04-03 14:09:29,502 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:09:37,670 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-03 14:09:37,670 INFO  Initializing Servlet 'dispatcherServlet'
+2019-04-03 14:09:37,677 INFO  Completed initialization in 7 ms
+2019-04-03 14:09:37,763 ERROR 捕获到Exception异常
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'user_account' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:09:53,494 ERROR 捕获到Exception异常
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'user_account' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:09:56,805 ERROR 捕获到Exception异常
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'user_account' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:09:59,430 INFO  Disable delta property : false
+2019-04-03 14:09:59,430 INFO  Single vip registry refresh property : null
+2019-04-03 14:09:59,431 INFO  Force full registry fetch : false
+2019-04-03 14:09:59,431 INFO  Application is null : false
+2019-04-03 14:09:59,431 INFO  Registered Applications size is zero : true
+2019-04-03 14:09:59,431 INFO  Application version is -1: false
+2019-04-03 14:09:59,431 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:09:59,491 INFO  The response status is 200
+2019-04-03 14:10:18,579 ERROR 捕获到Exception异常
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'user_account' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:10:28,730 ERROR 捕获到Exception异常
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'user_account' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:10:44,966 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 14:10:44,966 WARN  Saw local status change event StatusChangeEvent [timestamp=1554271844966, current=DOWN, previous=UP]
+2019-04-03 14:10:44,966 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:10:44,971 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:10:44,972 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:10:44,978 INFO  {dataSource-1} closed
+2019-04-03 14:10:44,979 INFO  {dataSource-2} closed
+2019-04-03 14:10:44,980 INFO  Shutting down DiscoveryClient ...
+2019-04-03 14:10:47,983 INFO  Unregistering ...
+2019-04-03 14:10:47,992 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 14:10:48,003 INFO  Completed shut down of DiscoveryClient
+2019-04-03 14:10:57,703 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c6738181] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:10:57,927 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:10:58,519 INFO  BeanFactory id=8325e360-a031-39bf-89a4-70b15665c1c8
+2019-04-03 14:10:58,593 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aa597e84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:10:58,607 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c6738181] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:10:58,900 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:10:58,912 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:10:58,920 INFO  Starting service [Tomcat]
+2019-04-03 14:10:58,920 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:10:59,033 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:10:59,033 INFO  Root WebApplicationContext: initialization completed in 1091 ms
+2019-04-03 14:10:59,217 INFO  {dataSource-1} inited
+2019-04-03 14:10:59,420 INFO  {dataSource-2} inited
+2019-04-03 14:10:59,715 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:10:59,715 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:10:59,719 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:10:59,720 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:10:59,863 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:11:00,477 INFO  Setting initial instance status as: STARTING
+2019-04-03 14:11:00,512 INFO  Initializing Eureka in region us-east-1
+2019-04-03 14:11:00,765 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:11:00,765 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:11:00,864 INFO  Using XML encoding codec XStreamXml
+2019-04-03 14:11:00,864 INFO  Using XML decoding codec XStreamXml
+2019-04-03 14:11:01,097 INFO  Resolving eureka endpoints via configuration
+2019-04-03 14:11:01,190 INFO  Disable delta property : false
+2019-04-03 14:11:01,190 INFO  Single vip registry refresh property : null
+2019-04-03 14:11:01,190 INFO  Force full registry fetch : false
+2019-04-03 14:11:01,190 INFO  Application is null : false
+2019-04-03 14:11:01,190 INFO  Registered Applications size is zero : true
+2019-04-03 14:11:01,190 INFO  Application version is -1: true
+2019-04-03 14:11:01,191 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:11:01,290 INFO  The response status is 200
+2019-04-03 14:11:01,292 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:11:01,295 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:11:01,298 INFO  Discovery Client initialized at timestamp 1554271861297 with initial instances count: 0
+2019-04-03 14:11:01,300 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 14:11:01,301 INFO  Saw local status change event StatusChangeEvent [timestamp=1554271861301, current=UP, previous=STARTING]
+2019-04-03 14:11:01,303 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:11:01,314 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:11:01,343 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 14:11:01,343 INFO  Updating port to 8197
+2019-04-03 14:11:01,345 INFO  Started UserserviceApplication in 4.82 seconds (JVM running for 5.84)
+2019-04-03 14:11:01,371 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:11:11,938 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-03 14:11:11,938 INFO  Initializing Servlet 'dispatcherServlet'
+2019-04-03 14:11:11,944 INFO  Completed initialization in 6 ms
+2019-04-03 14:11:17,462 ERROR 捕获到Exception异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pp.userservice.dao.UserDao.queryUser
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:232) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:50) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62) ~[mybatis-3.5.0.jar:3.5.0]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[?:1.8.0_191]
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57) ~[mybatis-3.5.0.jar:3.5.0]
+	at com.sun.proxy.$Proxy95.queryUser(Unknown Source) ~[?:?]
+	at com.pp.userservice.service.impl.RegistryServiceImpl.getUser(RegistryServiceImpl.java:22) ~[classes/:?]
+	at com.pp.userservice.controller.Registery.queryUserInfo(Registery.java:33) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:11:31,295 INFO  Disable delta property : false
+2019-04-03 14:11:31,295 INFO  Single vip registry refresh property : null
+2019-04-03 14:11:31,295 INFO  Force full registry fetch : false
+2019-04-03 14:11:31,296 INFO  Application is null : false
+2019-04-03 14:11:31,296 INFO  Registered Applications size is zero : true
+2019-04-03 14:11:31,296 INFO  Application version is -1: false
+2019-04-03 14:11:31,296 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:11:31,343 INFO  The response status is 200
+2019-04-03 14:12:54,445 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 14:12:54,446 WARN  Saw local status change event StatusChangeEvent [timestamp=1554271974446, current=DOWN, previous=UP]
+2019-04-03 14:12:54,447 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:12:54,451 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:12:54,458 INFO  {dataSource-1} closed
+2019-04-03 14:12:54,459 INFO  {dataSource-2} closed
+2019-04-03 14:12:54,460 INFO  Shutting down DiscoveryClient ...
+2019-04-03 14:12:54,461 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:12:54,463 INFO  Unregistering ...
+2019-04-03 14:12:54,468 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 14:12:54,475 INFO  Completed shut down of DiscoveryClient
+2019-04-03 14:13:45,064 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cee43021] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:13:45,288 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:13:45,935 INFO  BeanFactory id=8325e360-a031-39bf-89a4-70b15665c1c8
+2019-04-03 14:13:46,012 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2ca2d24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:13:46,027 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cee43021] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:13:46,307 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:13:46,320 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:13:46,328 INFO  Starting service [Tomcat]
+2019-04-03 14:13:46,328 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:13:46,504 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:13:46,504 INFO  Root WebApplicationContext: initialization completed in 1202 ms
+2019-04-03 14:13:46,694 INFO  {dataSource-1} inited
+2019-04-03 14:13:46,913 INFO  {dataSource-2} inited
+2019-04-03 14:13:47,188 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:13:47,189 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:13:47,193 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:13:47,193 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:13:47,333 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:13:47,951 INFO  Setting initial instance status as: STARTING
+2019-04-03 14:13:47,989 INFO  Initializing Eureka in region us-east-1
+2019-04-03 14:13:48,268 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:13:48,268 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:13:48,425 INFO  Using XML encoding codec XStreamXml
+2019-04-03 14:13:48,426 INFO  Using XML decoding codec XStreamXml
+2019-04-03 14:13:48,660 INFO  Resolving eureka endpoints via configuration
+2019-04-03 14:13:48,753 INFO  Disable delta property : false
+2019-04-03 14:13:48,753 INFO  Single vip registry refresh property : null
+2019-04-03 14:13:48,753 INFO  Force full registry fetch : false
+2019-04-03 14:13:48,753 INFO  Application is null : false
+2019-04-03 14:13:48,753 INFO  Registered Applications size is zero : true
+2019-04-03 14:13:48,753 INFO  Application version is -1: true
+2019-04-03 14:13:48,753 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:13:48,853 INFO  The response status is 200
+2019-04-03 14:13:48,855 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:13:48,858 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:13:48,861 INFO  Discovery Client initialized at timestamp 1554272028860 with initial instances count: 0
+2019-04-03 14:13:48,863 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 14:13:48,864 INFO  Saw local status change event StatusChangeEvent [timestamp=1554272028864, current=UP, previous=STARTING]
+2019-04-03 14:13:48,866 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:13:48,879 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:13:48,907 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 14:13:48,908 INFO  Updating port to 8197
+2019-04-03 14:13:48,910 INFO  Started UserserviceApplication in 4.94 seconds (JVM running for 5.95)
+2019-04-03 14:13:48,931 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:13:56,135 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-03 14:13:56,135 INFO  Initializing Servlet 'dispatcherServlet'
+2019-04-03 14:13:56,142 INFO  Completed initialization in 7 ms
+2019-04-03 14:14:08,675 ERROR 捕获到Exception异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pp.userservice.dao.UserDao.queryUser
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:232) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:50) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62) ~[mybatis-3.5.0.jar:3.5.0]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[?:1.8.0_191]
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57) ~[mybatis-3.5.0.jar:3.5.0]
+	at com.sun.proxy.$Proxy95.queryUser(Unknown Source) ~[?:?]
+	at com.pp.userservice.service.impl.RegistryServiceImpl.getUser(RegistryServiceImpl.java:22) ~[classes/:?]
+	at com.pp.userservice.controller.Registery.queryUserInfo(Registery.java:33) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:14:18,859 INFO  Disable delta property : false
+2019-04-03 14:14:18,860 INFO  Single vip registry refresh property : null
+2019-04-03 14:14:18,860 INFO  Force full registry fetch : false
+2019-04-03 14:14:18,860 INFO  Application is null : false
+2019-04-03 14:14:18,861 INFO  Registered Applications size is zero : true
+2019-04-03 14:14:18,861 INFO  Application version is -1: false
+2019-04-03 14:14:18,861 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:14:18,922 INFO  The response status is 200
+2019-04-03 14:15:07,239 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 14:15:07,239 WARN  Saw local status change event StatusChangeEvent [timestamp=1554272107239, current=DOWN, previous=UP]
+2019-04-03 14:15:07,240 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:15:07,243 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:15:07,246 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:15:07,251 INFO  {dataSource-1} closed
+2019-04-03 14:15:07,252 INFO  {dataSource-2} closed
+2019-04-03 14:15:07,253 INFO  Shutting down DiscoveryClient ...
+2019-04-03 14:15:10,257 INFO  Unregistering ...
+2019-04-03 14:15:10,270 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 14:15:10,289 INFO  Completed shut down of DiscoveryClient
+2019-04-03 14:15:15,645 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a2632682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:15:15,880 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:15:16,460 INFO  BeanFactory id=8325e360-a031-39bf-89a4-70b15665c1c8
+2019-04-03 14:15:16,534 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86492385] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:15:16,549 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a2632682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:15:16,832 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:15:16,844 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:15:16,852 INFO  Starting service [Tomcat]
+2019-04-03 14:15:16,853 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:15:17,018 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:15:17,019 INFO  Root WebApplicationContext: initialization completed in 1124 ms
+2019-04-03 14:15:17,197 INFO  {dataSource-1} inited
+2019-04-03 14:15:17,410 INFO  {dataSource-2} inited
+2019-04-03 14:15:17,673 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:15:17,674 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:15:17,678 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:15:17,679 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:15:17,844 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:15:18,496 INFO  Setting initial instance status as: STARTING
+2019-04-03 14:15:18,535 INFO  Initializing Eureka in region us-east-1
+2019-04-03 14:15:18,808 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:15:18,808 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:15:18,913 INFO  Using XML encoding codec XStreamXml
+2019-04-03 14:15:18,913 INFO  Using XML decoding codec XStreamXml
+2019-04-03 14:15:19,161 INFO  Resolving eureka endpoints via configuration
+2019-04-03 14:15:19,255 INFO  Disable delta property : false
+2019-04-03 14:15:19,255 INFO  Single vip registry refresh property : null
+2019-04-03 14:15:19,255 INFO  Force full registry fetch : false
+2019-04-03 14:15:19,255 INFO  Application is null : false
+2019-04-03 14:15:19,255 INFO  Registered Applications size is zero : true
+2019-04-03 14:15:19,255 INFO  Application version is -1: true
+2019-04-03 14:15:19,255 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:15:19,413 INFO  The response status is 200
+2019-04-03 14:15:19,416 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:15:19,419 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:15:19,423 INFO  Discovery Client initialized at timestamp 1554272119422 with initial instances count: 1
+2019-04-03 14:15:19,424 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 14:15:19,425 INFO  Saw local status change event StatusChangeEvent [timestamp=1554272119424, current=UP, previous=STARTING]
+2019-04-03 14:15:19,426 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:15:19,438 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:15:19,461 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:15:19,462 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 14:15:19,463 INFO  Updating port to 8197
+2019-04-03 14:15:19,464 INFO  Started UserserviceApplication in 4.955 seconds (JVM running for 5.927)
+2019-04-03 14:15:22,745 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-03 14:15:22,745 INFO  Initializing Servlet 'dispatcherServlet'
+2019-04-03 14:15:22,752 INFO  Completed initialization in 7 ms
+2019-04-03 14:15:27,932 ERROR 捕获到Exception异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pp.userservice.dao.UserDao.selectById
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:232) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:50) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62) ~[mybatis-3.5.0.jar:3.5.0]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[?:1.8.0_191]
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62) ~[mybatis-3.5.0.jar:3.5.0]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57) ~[mybatis-3.5.0.jar:3.5.0]
+	at com.sun.proxy.$Proxy95.selectById(Unknown Source) ~[?:?]
+	at com.pp.userservice.service.impl.RegistryServiceImpl.getUser(RegistryServiceImpl.java:22) ~[classes/:?]
+	at com.pp.userservice.controller.Registery.queryUserInfo(Registery.java:33) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.2.0.BUILD-20190402.171337-217.jar:5.2.0.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-04-03 14:15:41,675 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 14:15:41,675 WARN  Saw local status change event StatusChangeEvent [timestamp=1554272141675, current=DOWN, previous=UP]
+2019-04-03 14:15:41,675 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:15:41,679 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:15:41,682 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:15:41,684 INFO  {dataSource-1} closed
+2019-04-03 14:15:41,684 INFO  {dataSource-2} closed
+2019-04-03 14:15:41,686 INFO  Shutting down DiscoveryClient ...
+2019-04-03 14:15:44,688 INFO  Unregistering ...
+2019-04-03 14:15:44,703 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 14:15:44,731 INFO  Completed shut down of DiscoveryClient
+2019-04-03 14:17:17,012 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$712bde9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:17:17,247 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:17:17,840 INFO  BeanFactory id=8325e360-a031-39bf-89a4-70b15665c1c8
+2019-04-03 14:17:17,914 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5511db9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:17:17,928 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$712bde9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:17:18,219 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:17:18,231 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:17:18,239 INFO  Starting service [Tomcat]
+2019-04-03 14:17:18,240 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:17:18,359 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:17:18,359 INFO  Root WebApplicationContext: initialization completed in 1096 ms
+2019-04-03 14:17:18,544 INFO  {dataSource-1} inited
+2019-04-03 14:17:18,768 INFO  {dataSource-2} inited
+2019-04-03 14:17:19,267 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:17:19,267 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:17:19,271 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:17:19,271 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:17:19,422 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:17:20,083 INFO  Setting initial instance status as: STARTING
+2019-04-03 14:17:20,121 INFO  Initializing Eureka in region us-east-1
+2019-04-03 14:17:20,419 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:17:20,420 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:17:20,530 INFO  Using XML encoding codec XStreamXml
+2019-04-03 14:17:20,531 INFO  Using XML decoding codec XStreamXml
+2019-04-03 14:17:20,793 INFO  Resolving eureka endpoints via configuration
+2019-04-03 14:17:20,887 INFO  Disable delta property : false
+2019-04-03 14:17:20,888 INFO  Single vip registry refresh property : null
+2019-04-03 14:17:20,888 INFO  Force full registry fetch : false
+2019-04-03 14:17:20,888 INFO  Application is null : false
+2019-04-03 14:17:20,888 INFO  Registered Applications size is zero : true
+2019-04-03 14:17:20,888 INFO  Application version is -1: true
+2019-04-03 14:17:20,888 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:17:20,998 INFO  The response status is 200
+2019-04-03 14:17:21,000 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:17:21,003 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:17:21,007 INFO  Discovery Client initialized at timestamp 1554272241006 with initial instances count: 0
+2019-04-03 14:17:21,009 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 14:17:21,010 INFO  Saw local status change event StatusChangeEvent [timestamp=1554272241010, current=UP, previous=STARTING]
+2019-04-03 14:17:21,012 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:17:21,022 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:17:21,055 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 14:17:21,055 INFO  Updating port to 8197
+2019-04-03 14:17:21,057 INFO  Started UserserviceApplication in 5.056 seconds (JVM running for 6.111)
+2019-04-03 14:17:21,080 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:17:45,021 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-03 14:17:45,021 INFO  Initializing Servlet 'dispatcherServlet'
+2019-04-03 14:17:45,028 INFO  Completed initialization in 7 ms
+2019-04-03 14:17:51,004 INFO  Disable delta property : false
+2019-04-03 14:17:51,005 INFO  Single vip registry refresh property : null
+2019-04-03 14:17:51,005 INFO  Force full registry fetch : false
+2019-04-03 14:17:51,005 INFO  Application is null : false
+2019-04-03 14:17:51,006 INFO  Registered Applications size is zero : true
+2019-04-03 14:17:51,006 INFO  Application version is -1: false
+2019-04-03 14:17:51,006 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:17:51,060 INFO  The response status is 200
+2019-04-03 14:17:58,216 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 14:17:58,217 WARN  Saw local status change event StatusChangeEvent [timestamp=1554272278217, current=DOWN, previous=UP]
+2019-04-03 14:17:58,217 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:17:58,219 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:17:58,387 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:17:58,395 INFO  {dataSource-1} closed
+2019-04-03 14:17:58,396 INFO  {dataSource-2} closed
+2019-04-03 14:17:58,397 INFO  Shutting down DiscoveryClient ...
+2019-04-03 14:18:01,399 INFO  Unregistering ...
+2019-04-03 14:18:01,405 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 14:18:01,416 INFO  Completed shut down of DiscoveryClient
+2019-04-03 14:19:39,516 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b0f08f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:19:39,756 INFO  The following profiles are active: sharding-dev,config-dev
+2019-04-03 14:19:40,506 INFO  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 14:19:40,510 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-03 14:19:40,542 INFO  Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-04-03 14:19:40,721 INFO  BeanFactory id=870e58b8-4b4c-3c74-bdba-a883e788860f
+2019-04-03 14:19:40,807 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ef505f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:19:40,898 INFO  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b0f08f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 14:19:41,119 INFO  Tomcat initialized with port(s): 8197 (http)
+2019-04-03 14:19:41,132 INFO  Initializing ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:19:41,140 INFO  Starting service [Tomcat]
+2019-04-03 14:19:41,141 INFO  Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-03 14:19:41,270 INFO  Initializing Spring embedded WebApplicationContext
+2019-04-03 14:19:41,270 INFO  Root WebApplicationContext: initialization completed in 1499 ms
+2019-04-03 14:19:41,454 INFO  {dataSource-1} inited
+2019-04-03 14:19:41,680 INFO  {dataSource-2} inited
+2019-04-03 14:19:42,065 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:19:42,065 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:19:42,069 WARN  No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:19:42,069 INFO  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:19:42,266 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:19:43,344 INFO  Setting initial instance status as: STARTING
+2019-04-03 14:19:43,381 INFO  Initializing Eureka in region us-east-1
+2019-04-03 14:19:43,646 INFO  Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:19:43,646 INFO  Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:19:43,759 INFO  Using XML encoding codec XStreamXml
+2019-04-03 14:19:43,759 INFO  Using XML decoding codec XStreamXml
+2019-04-03 14:19:44,025 INFO  Resolving eureka endpoints via configuration
+2019-04-03 14:19:44,122 INFO  Disable delta property : false
+2019-04-03 14:19:44,122 INFO  Single vip registry refresh property : null
+2019-04-03 14:19:44,122 INFO  Force full registry fetch : false
+2019-04-03 14:19:44,122 INFO  Application is null : false
+2019-04-03 14:19:44,122 INFO  Registered Applications size is zero : true
+2019-04-03 14:19:44,122 INFO  Application version is -1: true
+2019-04-03 14:19:44,122 INFO  Getting all instance registry info from the eureka server
+2019-04-03 14:19:44,367 INFO  The response status is 200
+2019-04-03 14:19:44,369 INFO  Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:19:44,372 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:19:44,376 INFO  Discovery Client initialized at timestamp 1554272384375 with initial instances count: 0
+2019-04-03 14:19:44,377 INFO  Registering application CLIENT.SERVICE with eureka with status UP
+2019-04-03 14:19:44,378 INFO  Saw local status change event StatusChangeEvent [timestamp=1554272384378, current=UP, previous=STARTING]
+2019-04-03 14:19:44,380 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:19:44,391 INFO  Starting ProtocolHandler ["http-nio-8197"]
+2019-04-03 14:19:44,418 INFO  Tomcat started on port(s): 8197 (http) with context path ''
+2019-04-03 14:19:44,419 INFO  Updating port to 8197
+2019-04-03 14:19:44,421 INFO  Started UserserviceApplication in 5.812 seconds (JVM running for 6.914)
+2019-04-03 14:19:44,441 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:19:47,941 INFO  Unregistering application CLIENT.SERVICE with eureka with status DOWN
+2019-04-03 14:19:47,941 WARN  Saw local status change event StatusChangeEvent [timestamp=1554272387941, current=DOWN, previous=UP]
+2019-04-03 14:19:47,942 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197: registering service...
+2019-04-03 14:19:47,947 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - registration status: 204
+2019-04-03 14:19:48,056 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 14:19:48,063 INFO  {dataSource-1} closed
+2019-04-03 14:19:48,064 INFO  {dataSource-2} closed
+2019-04-03 14:19:48,066 INFO  Shutting down DiscoveryClient ...
+2019-04-03 14:19:51,068 INFO  Unregistering ...
+2019-04-03 14:19:51,075 INFO  DiscoveryClient_CLIENT.SERVICE/windows10.microdone.cn:client.service:8197 - deregister  status: 200
+2019-04-03 14:19:51,082 INFO  Completed shut down of DiscoveryClient
